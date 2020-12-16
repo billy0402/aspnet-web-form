@@ -84,6 +84,7 @@
     <Content Include="Global.asax" />
     <Content Include="Images\iphone7.png" />
     <Content Include="Images\xbox.png" />
+    <Content Include="Index.aspx" />
     <Content Include="Models\dbProduct.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>dbProduct.Context.cs</LastGenOutput>
@@ -102,6 +103,13 @@
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\dbProduct.Context.cs">
       <AutoGen>True</AutoGen>
