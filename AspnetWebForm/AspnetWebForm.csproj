@@ -79,6 +79,8 @@
     <Content Include="App_Data\dbProduct_log.ldf">
       <DependentUpon>dbProduct.mdf</DependentUpon>
     </Content>
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Models\dbProduct.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -90,6 +92,9 @@
       <DependentUpon>dbProduct.edmx</DependentUpon>
       <LastGenOutput>dbProduct.cs</LastGenOutput>
     </Content>
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -124,6 +129,7 @@
     <Content Include="Models\dbProduct.edmx.diagram">
       <DependentUpon>dbProduct.edmx</DependentUpon>
     </Content>
+    <Content Include="Content\bootstrap.min.css.map" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
