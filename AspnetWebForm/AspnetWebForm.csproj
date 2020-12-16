@@ -82,6 +82,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
+    <Content Include="Images\iphone7.png" />
+    <Content Include="Images\xbox.png" />
     <Content Include="Models\dbProduct.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>dbProduct.Context.cs</LastGenOutput>
